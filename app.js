@@ -55,8 +55,8 @@ function initializeList(res,requestedList,callback){
         res.render('error',{ err:err });
         console.error(err);
       } else {
-        checkListLimit(res,(/*count*/)=>{
-          if (result === null) {
+        if (result === null) {
+          checkListLimit(res,(/*count*/)=>{
             let items = [];
             items.push(new ListItem({
               name: 'Welcome to your ToDoList!'
@@ -79,10 +79,10 @@ function initializeList(res,requestedList,callback){
                 callback();
               }
             });
-          } else {
-            callback();
-          }
-        });
+          });
+        } else {
+          callback();
+        }
       }
     }
   );
@@ -95,7 +95,7 @@ function checkListLimit(res,callback){
       res.render('error',{ err:err });
       console.error(err);
     } else {
-      if (count <= limit) {
+      if (count < limit) {
         callback(count);
       } else {
         findListNames(res,(toDoLists)=>{
@@ -119,7 +119,7 @@ function checkItemLimit(res,requestedList,callback){
       res.render('error',{ err:err });
       console.error(err);
     } else {
-      if (result.items.length <= limit) {
+      if (result.items.length < limit) {
         callback(result);
       } else {
         findListNames(res,(toDoLists)=>{

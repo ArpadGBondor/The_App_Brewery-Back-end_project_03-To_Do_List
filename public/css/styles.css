@@ -1,0 +1,152 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-gradient( linear, left bottom, right top, color-stop(0.5, #4263f2), color-stop(0.5, #E4E9FD) );
+  background-image: -webkit-linear-gradient(65deg, #4263f2 50%, #E4E9FD 50%);
+  background-image: -moz-linear-gradient(65deg, #4263f2 50%, #E4E9FD 50%);
+  background-image: -o-linear-gradient(65deg, #4263f2 50%, #E4E9FD 50%);
+  background-image: linear-gradient(25deg, #4263f2 50%, #E4E9FD 50%);
+  min-height: 100vh;
+  font-family: 'helvetica neue';
+}
+
+body {
+  background-color: transparent;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.heading {
+  background-color: #4263f2;
+  text-align: center;
+  padding: 10px;
+}
+
+.heading p{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+  overflow: auto;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: #4263f2 line-through;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button.delete-button{
+  background-color: #E4E9FD;
+
+}
+
+button.back {
+  background-color: #4263f2;
+  color: #fff;
+  width: 100%;
+}
+
+button.add {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #4263f2;
+  color: #fff;
+  padding-bottom: 6px;
+  font-size: 30px;
+  border-width: 0;
+}
+
+.item input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+.item input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #4263f2;
+}
+
+.item ::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.footer {
+  background-color: white;
+  text-align: center;
+  max-width: 360px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.footer p{
+  color: #4263f2;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+.footer a,  .footer a:visited{
+  color: #4263f2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer a:active, .footer a:hover{
+  color: #4263f2;
+  font-weight: bold;
+  text-decoration: underline;
+}

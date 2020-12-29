@@ -13,7 +13,7 @@ A back-end program, that can manage multiple To-Do-Lists stored in a database.
  - HTML5
  - CSS3
 
-#### This project is not deployed yet.
+#### My To-Do-List is deployed on [Heroku](https://gabriel-to-do-list.herokuapp.com/)
 
 #### How to run: (from terminal)
  Clone the repository: 

@@ -24,10 +24,10 @@
         </li>
       <% } %>
     </ul>
-    <form class="form-inline my-2 my-sm-0 ml-md-2"  action="/create" method="post">
+    <form class="form-inline my-2 my-sm-0 ml-sm-2"  action="/create" method="post">
       <input name="newListName" class="form-control" type="text" placeholder="Create new list" aria-label="Search" maxlength="25">
     </form>
-    <form class="form-inline my-2 my-sm-0 ml-md-2"  action="/deletelist" method="post">
+    <form class="form-inline my-2 my-sm-0 ml-sm-2"  action="/deletelist" method="post">
       <button class="btn delete-button" type="submit" name="button" value="<%= listName %>">
         <% if ('To do list' == listName) { %>
           Reset list

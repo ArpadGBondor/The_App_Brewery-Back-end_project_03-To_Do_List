@@ -17,10 +17,10 @@ A back-end program, that can manage multiple To-Do-Lists stored in a database.
 
 #### How to run: (from terminal)
  Clone the repository: 
- > git clone https://github.com/ArpadGBondor/The_App_Brewery-Back-end_project_03-Newsletter_Signup.git
+ > git clone https://github.com/ArpadGBondor/The_App_Brewery-Back-end_project_04-To_Do_List.git
  
  Enter directory:
- > cd The_App_Brewery-Back-end_project_03-Newsletter_Signup/
+ > cd The_App_Brewery-Back-end_project_04-To_Do_List/
  
  Download the missing dependencies from npm: 
  > npm install

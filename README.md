@@ -29,7 +29,7 @@ A back-end program, that can manage multiple To-Do-Lists stored in a database.
  > https://www.mongodb.com/try/download/community
  
  Run program: 
- > nodemon app.js
+ > node app.js
  
  Send get request from browser:
  > Open: http://localhost:3000

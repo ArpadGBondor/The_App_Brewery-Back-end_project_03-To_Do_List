@@ -1,3 +1,4 @@
+require('dotenv').config();
 const util = require('util');
 const consoleStamp = require('console-stamp');
 consoleStamp(console, {
@@ -8,7 +9,7 @@ consoleStamp(console, {
   }
 });
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/ToDoListDB', {
+mongoose.connect(process.env.DB_CONNECT, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false

@@ -1,6 +1,6 @@
 # [The App Brewery - Back-end project 04 - To Do List](https://gabriel-to-do-list.herokuapp.com/)
 
-## Udemy - The Complete 2020 Web Development Bootcamp
+## Udemy - [Dr. Angela Yu - The Complete 2020 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
 
 ### Section 22: EJS
 ### Section 27: Mongoose
